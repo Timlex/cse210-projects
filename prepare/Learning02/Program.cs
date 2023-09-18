@@ -2,8 +2,17 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.WriteLine("Hello Learning02 World!");
+        Resume myResume = new Resume();
+        myResume.Name = "Timileyin Omikunle";
+
+        Job job1 = new Job("Software Engineer", "Microsoft", "2019", "2022");
+        Job job2 = new Job("Manager", "Apple", "2022", "2023");
+
+        myResume.Jobs.Add(job1);
+        myResume.Jobs.Add(job2);
+
+        myResume.Display();
     }
 }
