@@ -66,7 +66,7 @@ class ReflectionActivity : MindfulnessActivity
     private string[] reflectionQuestions = {
         "Why was this experience meaningful to you?",
         "Have you ever done anything like this before?",
-        // Add more reflection questions here
+        // more will be added here latter run
     };
 
     public ReflectionActivity() : base("Reflection", "This activity will help you reflect on times in your life when you have shown strength and resilience.")
@@ -103,7 +103,7 @@ class ListingActivity : MindfulnessActivity
     private string[] listingPrompts = {
         "Who are people that you appreciate?",
         "What are personal strengths of yours?",
-        // Add more listing prompts here
+        // more of the listing prompts will be added letter run
     };
 
     public ListingActivity() : base("Listing", "This activity will help you reflect on the good things in your life by having you list as many things as you can in a certain area.")
@@ -125,8 +125,7 @@ class ListingActivity : MindfulnessActivity
         DateTime startTime = DateTime.Now;
         while ((DateTime.Now - startTime).TotalSeconds < durationInSeconds)
         {
-            // Allow the user to input items here and count them
-            // You can implement this part using Console.ReadLine()
+            
         }
 
         // Calculate the number of items entered
