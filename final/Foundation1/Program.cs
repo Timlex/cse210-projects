@@ -194,7 +194,7 @@ class Program
     static void Main()
     {
         // Create a sample address
-        Address customerAddress = new Address("123 Main St", "Cityville", "CA", "USA");
+        Address customerAddress = new Address("163 Iremo Road", "ile-ife", "LA", "Nigeria");
 
         // Create a customer
         Customer customer = new Customer("Omikunle Timileyin", customerAddress);
