@@ -189,7 +189,7 @@ class Order
     }
 }
 
-class Program
+class Program 
 {
     static void Main()
     {
@@ -216,8 +216,10 @@ class Program
         string packingLabel = order.GeneratePackingLabel();
         Console.WriteLine(packingLabel);
 
-        // Generate and display shipping label
+        // Generate and display shipping label 
         string shippingLabel = order.GenerateShippingLabel();
         Console.WriteLine(shippingLabel);
     }
 }
+
+
