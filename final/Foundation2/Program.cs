@@ -1,3 +1,18 @@
+// Program 2: Encapsulation with Online Ordering
+Description:
+In this program, I will design classes for Product, Customer, Address, and Order to help manage online product orders. The Order class will contain a list of products and a customer, allowing it to calculate the total cost, generate packing and shipping labels. 
+The Product class will store product details, and the Customer class will hold customer information along with an address. 
+The Address class will include the customer's address details.
+All member variables will be made private, and getters, setters, and constructors will be provided as needed. I will create at least two orders with products and display packing labels, shipping labels, and total order prices.
+
+// Program is the main entry point of the application. It interacts with the user, collects input, and coordinates the creation of other objects.
+Product, Address, Customer, and Order are the primary classes used in the program.
+Each class has its properties (attributes) and methods as described in the code examples.
+Order has a list of Product objects, representing the products in the order. It also has a reference to a Customer object, representing the customer making the order.
+The methods in each class correspond to their responsibilities. For example, GeneratePackingLabel() and GenerateShippingLabel() are used to generate labels for the order.
+
+
+
 using System;
 using System.Collections.Generic;
 
