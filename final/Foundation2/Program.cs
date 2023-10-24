@@ -7,7 +7,7 @@ All member variables will be made private, and getters, setters, and constructor
 
 // Program is the main entry point of the application. It interacts with the user, collects input, and coordinates the creation of other objects.
 Product, Address, Customer, and Order are the primary classes used in the program.
-Each class has its properties (attributes) and methods as described in the code examples.
+Each class has its properties (attributes) and methods as described in the code.
 Order has a list of Product objects, representing the products in the order. It also has a reference to a Customer object, representing the customer making the order.
 The methods in each class correspond to their responsibilities. For example, GeneratePackingLabel() and GenerateShippingLabel() are used to generate labels for the order.
 
